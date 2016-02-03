@@ -1,0 +1,106 @@
+/* Resets */
+html, body, ul, li, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Declares font family, text colour and adds a subtle pattern to the background */
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #2c3e50;
+  background-image: url('img/texture.png');
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Make container centered in page and center text inside <div> */
+.container {
+  position: absolute;
+  top:50%;
+  left:50%;
+  width:400px;  
+  margin: -220px 0 0 -200px;  
+  text-align: center;
+}
+
+
+/* Makes image a circle and sizes it to 40% of the outside container */
+.container img { 
+  max-width: 40%;
+  border-radius: 50%;
+}
+
+
+/* Clears bullet points and places <li> items next to each other instead of stacked on top and changes font */
+li {
+  display: inline;
+  list-style: none;
+  padding: 0 4px;
+  font-family: 'Pacifico', monospace;
+}
+
+
+/* Remove default hyperlink styling, add our own colours and change font-size*/
+a, a:visited {
+  color:tomato;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* This changes the link colour when someone hovers their mouse over it */
+a:hover {
+  color: darkred;
+}
+
+/* Style our header tags */
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 10px 0 0
+}
+
+h2 {
+  font-size: 22px;
+  color: #67809F;
+}
+
+
+/* Adds some space around our bio */
+p {
+  padding: 20px 0;
+}
+
+.button {
+  height: 45px;
+}
+
+
+/* Style our 'available' and 'unavailable' classes */
+.available, .unavailable {
+  width: 60%;
+  margin: 10px auto 40px;
+  border-radius: 3px;
+  padding: 14px 10px;
+  color: #fff !important;
+}
+
+.available {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.unavailable {
+  color: #999;
+  background-color: #eee;
+}
+
+
+
+
+
+
+
