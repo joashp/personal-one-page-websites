@@ -7,7 +7,7 @@
 <a href="https://github.com/joashp/one-page-personal-website/tree/master/one-page-personal-website">Goto folder</a>
 <br/><br/>
 
-<h2>2) Dribble Shots Personal One Pager</h2>
+<h2>2) Dribble Shots One Pager</h2>
 <h4>How to use:</h4>
 This dribbble shots personal one pager feeds in your Dribbble account. Any shot you upload to Dribbble will now automatically show up on your landing page. 
 <br/>
