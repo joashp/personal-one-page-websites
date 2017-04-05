@@ -1,0 +1,375 @@
+/*!
+ * behance-projects-personal-one-pager
+ *
+ * Created by Joash Pereira
+ * Visit us at http://www.joashpereira.com
+ *
+ */
+
+
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
+body {
+	background: #f5f5f5;
+}
+
+.container-fluid {
+  padding-left: 100px;
+}
+
+.container {
+	max-width: 1370px;
+	width: 100%;
+	padding-left: 75px;
+  padding-right: 75px;
+}
+
+h1, .h1, h3, .h3, h4, .h4, .side-border, .menu-footer, .copyright {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, .h2, p, body, .lead {
+	font-family: 'Lora', serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h1, .h1 {
+  font-size: 85px;
+  line-height: 80px;
+  letter-spacing: -4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2, .h2 {
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+h3, .h3 {
+  font-size: 15px;
+  line-height: auto;
+  letter-spacing: 0px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+h4, .h4 {
+  font-size: 11px;
+  line-height: auto;
+  letter-spacing: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: normal;
+  color: #a1a4a8;
+}
+
+.lead {
+	font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1e1e1e;
+}
+
+/*----------------Utilities-----------------*/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #1e1e1e;
+  outline: 0;
+  
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -10%;
+}
+
+::selection {
+	background: #1e1e1e; /* Safari */
+	color: #FFFFFF;
+}
+::-moz-selection {
+	background: #1e1e1e; /* Firefox */
+	color: #FFFFFF;
+}
+
+
+
+/*----------------Margins--------------------*/
+.margin-0 {
+    margin-bottom: 0 !important;
+}
+.margin-10 {
+    margin-bottom: 10px !important;
+}
+.margin-15 {
+    margin-bottom: 15px !important;
+}
+.margin-20 {
+    margin-bottom: 20px !important;
+}
+.margin-30 {
+    margin-bottom: 30px !important;
+}
+.margin-40 {
+    margin-bottom: 40px !important;
+}
+.margin-50 {
+    margin-bottom: 50px !important;
+}
+.margin-60 {
+    margin-bottom: 60px !important;
+}
+.margin-70 {
+    margin-bottom: 70px !important;
+}
+.margin-80 {
+    margin-bottom: 80px !important;
+}
+.margin-90 {
+    margin-bottom: 90px !important;
+}
+.margin-100 {
+    margin-bottom: 100px !important;
+}
+
+
+
+/*----------------Colors--------------------*/
+.black {
+	color: #1e1e1e;
+}
+
+.dark-gray {
+	color: #4e535a;
+}
+
+.gray {
+	color: #a1a4a8;
+}
+
+.light-gray {
+	color: #f5f5f5;
+}
+
+.white {
+	color: #ffffff;
+}
+
+
+.blue {
+	color: #1b7dff;
+}
+
+
+.black-bg {
+	background: #1e1e1e;
+}
+
+.dark-gray-bg {
+	background: #4e535a;
+}
+
+.gray-bg {
+	background: #a1a4a8;
+}
+
+.light-gray-bg {
+	background: #f5f5f5;
+}
+
+.white-bg {
+	background: #ffffff;
+}
+
+.blue-bg {
+	background: #1b7dff;
+}
+
+
+
+
+/* ==========================================================================
+   Main Styles
+   ========================================================================== */
+.full .col-xs-1, .full .col-sm-1, .full .col-md-1, .full .col-lg-1, .full .col-xs-2, .full .col-sm-2, .full .col-md-2, .full .col-lg-2, .full .col-xs-3, .full .col-sm-3, .full .col-md-3, .full .col-lg-3, .full .col-xs-4, .full .col-sm-4, .full .col-md-4, .full .col-lg-4, .full .col-xs-5, .full .col-sm-5, .full .col-md-5, .full .col-lg-5, .full .col-xs-6, .full .col-sm-6, .full .col-md-6, .full .col-lg-6, .full .col-xs-7, .full .col-sm-7, .full .col-md-7, .full .col-lg-7, .full .col-xs-8, .full .col-sm-8, .full .col-md-8, .full .col-lg-8, .full .col-xs-9, .full .col-sm-9, .full .col-md-9, .full .col-lg-9, .full .col-xs-10, .full .col-sm-10, .full .col-md-10, .full .col-lg-10, .full .col-xs-11, .full .col-sm-11, .full .col-md-11, .full .col-lg-11, .full .col-xs-12, .full .col-sm-12, .full .col-md-12, .full .col-lg-12 {
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.pad {
+	padding: 160px 0px;
+}
+
+.pad-sm {
+	padding: 50px 0px;
+}
+
+
+
+/*------------------Nav-----------------*/
+.brand {
+	position: fixed;
+	top: 20px;
+	left: 25px;
+	z-index: 50;
+	width: 50px;
+	height: 50px;
+}
+
+a.contact {
+	position: fixed;
+	top: 20px;
+	right: 25px;
+	z-index: 50;
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: #1b7dff;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-o-border-radius: 25px;
+	box-shadow: -3px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*------------------Side border-----------------*/
+.side-border {
+    background: none repeat scroll 0 0 #fff;
+    bottom: 0;
+    color: #9ca0a6;
+    font-size: 13px;
+    letter-spacing: auto;
+    font-weight: 400;
+    padding: 0 45px;
+    position: fixed;
+    top: 0;
+    white-space: nowrap;
+    width: 100px;
+    z-index: 40;
+}
+
+.side-border > div {
+    display: inline-block;
+    left: 55px;
+    line-height: 12px;
+    margin-top: 100px;
+    position: absolute;
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: 0 0 0;
+    -moz-transform-origin: 0 0 0;
+    -webkit-transform-origin: 0 0 0;
+    -o-transform-origin: 0 0 0;
+}
+#side-border-left {
+    left: 0;
+}
+
+
+/*------------------Behance-----------------*/
+.projects img, .attachments img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.project span { 
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Mobile Styles
+   ========================================================================== */
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+.container-fluid {
+  padding-left: 0px;
+}
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+
+.container-fluid {
+  padding-left: 0px;
+}
+
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+     
+
+
+/* Large screens ----------- */
+@media (min-width: 1200px) and (max-width: 3000px) {
+
+}   
+
+
+
