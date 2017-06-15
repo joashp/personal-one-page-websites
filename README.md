@@ -4,7 +4,8 @@
 1) Just replace the social links<br/>
 2) Change the image<br/>
 2) Change the meta tags and content<br/>
-<a href="https://github.com/joashp/one-page-personal-website/tree/master/one-page-personal-website">Goto folder</a>
+<a href="https://github.com/joashp/one-page-personal-website/tree/master/one-page-personal-website/v1">Goto folder v1</a>
+<a href="https://github.com/joashp/one-page-personal-website/tree/master/one-page-personal-website/v2">Goto folder v2 with 3 different styles</a>
 <br/><br/>
 
 <h2>2) Dribble Shots One Pager</h2>
